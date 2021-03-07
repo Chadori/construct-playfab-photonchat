@@ -7,7 +7,7 @@ This is the documentation to use Construct 3's new JavaScript [Scripting feature
 ### Easy usage
 You can easily access the PhotonChat object's interface using the `runtime`, from both the event sheet and script.
 ```JS
-runtime.objects.PhotonChat.getFirstInstance().setAnimation("animationName", 0, 0);
+runtime.objects.PhotonChat.getFirstInstance().publishMessage("channelName", "message");
 ```
 For more information, please see the [scripting documentation of the Sprite object](https://www.construct.net/en/make-games/manuals/construct-3/scripting/scripting-reference/plugin-interfaces/sprite).
 
